@@ -15,14 +15,13 @@ import { HeaderLogOut } from './pages/layout/layout';
   ],
   imports: [
     CommonModule,
-    
   ],
   exports: [
     LogoComponent,
     LoginComponent,
     MenuComponent,
     HeaderLogOut
-  ]
+  ],
 })
 export class HeaderModule { }
  
