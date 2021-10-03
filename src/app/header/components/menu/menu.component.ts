@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   menuData = [{
-    text: 'Categoria 1',
+    text: 'CATEGORIA',
     link: 'categoria-1'
   },{
-    text: 'Categoria 2',
+    text: 'CATEGORIA',
     link: 'categoria-2'
   },{
     text: 'Categoria 3',

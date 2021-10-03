@@ -10,3 +10,8 @@ div {
     max-width: 120px;
     padding: 3px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}

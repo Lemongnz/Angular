@@ -21,7 +21,7 @@ import { HeaderLogOut } from './pages/layout/layout';
     LoginComponent,
     MenuComponent,
     HeaderLogOut
-  ],
+  ]
 })
 export class HeaderModule { }
  
