@@ -1,0 +1,49 @@
+.destWrap {
+    border: 1px solid black;
+    height: 300px;
+    max-width: 250px;
+    background-color: pink;
+    min-width: 250px;
+}
+
+.image {
+    background-color: pink;
+    height: 40%;
+}
+
+.label {
+    height: 60%;
+    background-color: white;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.name {
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.description {
+    font-size: .7em;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lastprice {
+    font-size: .7em;
+    width: auto;
+}
+
