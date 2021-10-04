@@ -38,12 +38,33 @@
 .price {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.currentprice {
+    width: 60%;
 }
 
 .lastprice {
     font-size: .7em;
-    width: auto;
+    width: 40%;
+    text-decoration: line-through;
 }
+
+.moreInfoWrap {
+    width: 50%;
+    padding: 1px 5px;
+}
+
+.moreInfo {
+    width: 100%;
+}
+
 

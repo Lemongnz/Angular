@@ -1,12 +1,22 @@
 a {
     color: black;
     text-decoration: none;
-    
+    margin: 5px 10px;
 }
 
-div {
+.loginWrap {
     display: flex;
-    justify-content: space-between;
-    max-width: 250px;
-    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    height: 100%;
+}
+
+.singup {
+    width: 50%;
+}
+
+.login {
+    width: 50%;
 }

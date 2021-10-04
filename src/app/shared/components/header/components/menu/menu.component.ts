@@ -7,17 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   menuData = [{
-    text: 'Page 1',
+    text: 'CATEGORIA 1',
     link: 'page-1'
   },{
-    text: 'Page 2',
+    text: 'CATEGORIA 2',
     link: 'page-2'
   },{
-    text: 'Page 3',
+    text: 'CATEGORIA 3',
     link: 'page-3'
   },{
-    text: 'Page 4',
+    text: 'CATEGORIA 4',
     link: 'page-4'
+  },{
+    text: 'CATEGORIA 5',
+    link: 'page-5'
+  },{
+    text: 'CATEGORIA 6',
+    link: 'page-6'
   },];
 
   constructor() { }
