@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LogoComponent } from './components/logo/logo.component';
 import { LoginComponent } from './components/login/login.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { HeaderLogOut } from './pages/layout/layout';
+import { HeaderPage } from './pages/header-page/header-page';
 
 
 @NgModule({
@@ -11,7 +11,7 @@ import { HeaderLogOut } from './pages/layout/layout';
     LogoComponent,
     LoginComponent,
     MenuComponent,
-    HeaderLogOut
+    HeaderPage
   ],
   imports: [
     CommonModule,
@@ -20,7 +20,7 @@ import { HeaderLogOut } from './pages/layout/layout';
     LogoComponent,
     LoginComponent,
     MenuComponent,
-    HeaderLogOut
+    HeaderPage
   ]
 })
 export class HeaderModule { }
