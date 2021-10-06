@@ -10,7 +10,7 @@
     max-width: 250px;
     background-color: pink;
     min-width: 250px;
-
+    margin: 2px;
 }
 
 .image {
@@ -52,6 +52,7 @@
 .money {
     display: flex;
     flex-direction: row;
+    text-align: center;
     width: 50%;
 }
 
