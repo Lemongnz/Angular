@@ -2,11 +2,8 @@ div {
     border: 2px solid black;
     padding: 15px;
     display: inline;
-    max-width: 100px;
-    min-height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    min-width: 220px;
 }

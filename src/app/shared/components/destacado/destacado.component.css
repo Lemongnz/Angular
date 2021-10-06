@@ -1,9 +1,16 @@
 .destWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.singledest {
     border: 1px solid black;
     height: 300px;
     max-width: 250px;
     background-color: pink;
     min-width: 250px;
+
 }
 
 .image {

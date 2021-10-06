@@ -11,8 +11,8 @@ export class DestacadoComponent implements OnInit {
     name: 'Nombre del lugar',
     stars: 3,
     description: 'Lorem...',
-    lastPrice: 1600,
-    currentPrice: 950
+    lastPrice: '$1600',
+    currentPrice: '$950'
   },{
     img: 'https://i.blogs.es/380a41/google-fotos/450_1000.jpg',
     name: 'Nombre del lugar',

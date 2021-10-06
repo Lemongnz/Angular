@@ -22,6 +22,15 @@ export class MenuComponent implements OnInit {
     text: 'CATEGORIA 5',
     link: 'page-5'
   },{
+    text: 'CATEGORIA 5',
+    link: 'page-5'
+  },{
+    text: 'CATEGORIA 5',
+    link: 'page-5'
+  },{
+    text: 'CATEGORIA 5',
+    link: 'page-5'
+  },{
     text: 'CATEGORIA 6',
     link: 'page-6'
   },];
