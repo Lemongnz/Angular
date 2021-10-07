@@ -4,8 +4,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    max-width: 300px;
-    min-width: 250px;
+    width: 340px;
     border-radius: 15px;
     padding: 10px 30px;
 }
