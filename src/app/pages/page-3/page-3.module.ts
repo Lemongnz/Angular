@@ -1,22 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../shared/shared.module';
-import { SingupComponent } from './components/singup/singup.component';
-import { Page2Page } from './page-2-page/page-2-page'
 
+import { Page3Page } from './page-3-page/page-3-page'
 
 @NgModule({
   declarations: [
-    Page2Page,
-    SingupComponent
+    Page3Page
   ],
   imports: [
     CommonModule,
     SharedModule
   ],
   exports: [
-    SingupComponent
   ]
 })
-export class Page2Module { }
+export class Page3Module { }
  

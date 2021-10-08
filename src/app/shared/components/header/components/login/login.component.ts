@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { LoginFormComponent } from '../../../login-form/loginForm.component'
 
 @Component({
   selector: 'login',
@@ -8,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   isLogged = false;
 
-  constructor() { }
+  constructor(public $: MatDialog) { }
+
+  openForm(){
+    this.$.open(LoginFormComponent);
+  }
 
   ngOnInit(): void { }
 }

@@ -1,6 +1,6 @@
 <div class="loginWrap" *ngIf="!isLogged">
     <a class="singup" href="">REGISTRARSE</a>
-    <a class="login" href="">INICIAR SESIÓN</a>
+    <a class="login" (click)="openForm()">INICIAR SESIÓN</a>
 </div>
 
 <div class="loginWrap" *ngIf="isLogged">

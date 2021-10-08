@@ -54,16 +54,19 @@
     flex-direction: row;
     text-align: center;
     width: 50%;
+    font-weight: 600;
 }
 
 .currentprice {
     width: 60%;
+    font-size: 1.3em;
 }
 
 .lastprice {
-    font-size: .7em;
+    font-size: .8em;
     width: 40%;
     text-decoration: line-through;
+    padding-left: 10px;
 }
 
 .moreInfoWrap {

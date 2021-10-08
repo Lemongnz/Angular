@@ -24,7 +24,7 @@
 
 .text {
     background-color: rgba(255, 253, 253, 0.678);
-    border: 1px solid black;
+    border-right: 1px solid black;
     position: absolute;
     display: flex;
     flex-direction: column;

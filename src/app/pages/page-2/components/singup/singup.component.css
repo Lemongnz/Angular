@@ -28,6 +28,7 @@
     height: 40px;
     margin: 5px 0px;
     text-align: center;
+    border: 1px solid black;
 }
 
 ::placeholder {
@@ -37,11 +38,18 @@
 
 .singupButton {
     width: 270px;
+    
 }
-.singupButton button {
+.singupsinglebutton {
     width: 100%;
     height: 40px;
     font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.singupsinglebutton:hover {
+    background-color: rgb(202, 202, 202);
 }
 
 .singupButton p {
