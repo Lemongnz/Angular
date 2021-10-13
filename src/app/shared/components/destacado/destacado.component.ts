@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'destacado',
   templateUrl: './destacado.component.html',
   styleUrls: ['./destacado.component.css']
 })
 export class DestacadoComponent implements OnInit {
+  
+
   destacadosData = [{
     img: 'https://i.blogs.es/380a41/google-fotos/450_1000.jpg',
     name: 'Nombre del lugar',

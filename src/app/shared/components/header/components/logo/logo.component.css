@@ -6,4 +6,11 @@ div {
     align-items: center;
     justify-content: center;
     min-width: 220px;
+    margin: 5px;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
 }

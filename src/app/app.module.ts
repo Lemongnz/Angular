@@ -7,7 +7,11 @@ import { HeaderModule } from './shared/components/header/header.module';
 import { PagesModule } from './pages/pages.module';
 import { AppRoutingModule } from './app-routing.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon'
+
+
+
 
 @NgModule({
   declarations: [
@@ -19,7 +23,8 @@ import { MatDialogModule } from '@angular/material/dialog'
     HeaderModule,
     PagesModule,
     NoopAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
